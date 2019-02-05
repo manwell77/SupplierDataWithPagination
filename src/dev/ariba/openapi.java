@@ -52,9 +52,9 @@ public class openapi {
 			    if (args[n].equals("-cn")) { csv_name = args[n+1]; } // csv file name (optional - default suppliers.csv)
 			    if (args[n].equals("-v"))  { vendor = args[n+1]; } // specific vendor ariba code (optional - all if not specified)
 			    if (args[n].equals("-dh")) { mysql_host = args[n+1]; } // mysql host name (optional - default localhost)
-			    if (args[n].equals("-dh")) { mysql_port = Integer.parseInt(args[n+1]); } // mysql port number (optional - default 3306)
+			    if (args[n].equals("-dp")) { mysql_port = Integer.parseInt(args[n+1]); } // mysql port number (optional - default 3306)
 			    if (args[n].equals("-du")) { mysql_user = args[n+1]; } // mysql user (optional - default root)
-			    if (args[n].equals("-dp")) { mysql_password = args[n+1]; } // mysql passowrd (optional - default techedge)
+			    if (args[n].equals("-dk")) { mysql_password = args[n+1]; } // mysql passowrd (optional - default techedge)
 			    if (args[n].equals("-dt")) { mysql_table = args[n+1]; } // mysql table name (optional - default default.suppliers)
 			    if (args[n].equals("-k"))  { key_secret = args[n+1]; } // ariba api secret key base64
 			    if (args[n].equals("-l"))  { log_level = Integer.parseInt(args[n+1]); } // log level (optional - default 0, max 2)
